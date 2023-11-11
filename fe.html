@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patent Insights</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .header {
+    background-color: #2a3f54;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .button {
+    background-color: #008cba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background-color: #005f73;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Patent Insights</h1>
+</div>
+
+<div class="container">
+  <div class="content">
+    <h2>Are you a patent examiner or a patent inventor?</h2>
+    <button class="button" onclick="location.href='#examiner'">Patent Examiner</button>
+    <button class="button" onclick="location.href='#inventor'">Inventor</button>
+  </div>
+
+  <div class="content" id="examiner">
+    <h2>Dear Patent Examiner, I am trained to help you with two tasks:</h2>
+    <p>Patent Novelty Assessment and Patent CPC Classification. How can I help?</p>
+    <button class="button">Patent Novelty Assessment</button>
+    <button class="button">Patent CPC Classification</button>
+  </div>
+
+  <div class="content" id="inventor">
+    <h2>Dear Patent Inventor, I am trained to help you with two tasks:</h2>
+    <p>Claim Generation and Abstract Generation. How can I help?</p>
+    <button class="button">Claim Generation</button>
+    <button class="button">Abstract Generation</button>
+  </div>
+</div>
+
+</body>
+</html>
